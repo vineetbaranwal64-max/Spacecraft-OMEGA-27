@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMEGA-27 FEEDBACK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="suggestion">
+        <img src="images/futuristic.png" alt="photo">
+        <h2>OMEGA-27 FEEDBACK</h2>
+        <p>Have a suggestion for our mission? Send a transmission to Mission Control.</p>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <br>
+            <label for="interesting">Which part did you find most interesting?</label>
+            <select class="options" name="interesting" id="interesting" required>
+                <option>Mission</option>
+                <option>Discovery</option>
+                <option>Crew</option>
+                <option>Timeline</option>
+                <option>Spacecraft</option>
+                <option>Website</option>
+            </select>
+            <br>
+            <br>
+            <label for="rate">How would you rate OMEGA-27? (on the scale of 1-5)</label>
+            <br>
+            <input type="radio" name="rate" id="1" value="1" required>
+            <label for="1">1</label>
+            <br>
+            <input type="radio" name="rate" id="2" value="2">
+            <label for="2">2</label>
+            <br>
+            <input type="radio" name="rate" id="3" value="3">
+            <label for="3">3</label>
+            <br>
+            <input type="radio" name="rate" id="4" value="4">
+            <label for="4">4</label>
+            <br>
+            <input type="radio" name="rate" id="5" value="5">
+            <label for="5">5</label>
+            <br>
+            <br>
+            <label for="suggestions">Do you have any suggestions for Mission Control?</label>
+            <br>
+            <textarea id="suggestion" name="suggestion">Suggestion</textarea>
+            <br>
+            <br>
+            <label for="updates">Would you like to receive future mission updates?</label>
+            <br>
+            <input type="radio" id="yes" name="updates" value="yes" required>
+            <label for="yes">Yes</label>
+            <br>
+            <input type="radio" id="no" name="updates" value="no">
+            <label for="no">No</label>
+            <br>
+            <br>
+            <input type="submit" value="submit feedback">
+        </form>
+    </section>
+</body>
+</html>
